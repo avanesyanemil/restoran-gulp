@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+body {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: #FFF;
+    font-weight: 700;
+    background-color: #FF7400;
+    padding: 14px 18px;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: #a25414;
+    }
+   
+}
+
+.title-2{
+    color: #000;
+    font-family: Tinos;
+    font-size: 54px;
+    span {
+        color: #D67E34;
+    }
+}
+
+.none{
+    display: none;
+}

@@ -1,0 +1,50 @@
+.dishes {
+    padding: 132px 0 152px;
+    @media screen and (max-width:530px) {
+        padding: 65px 0 120px;
+    }
+}
+
+.dishes__title {
+    
+    margin-bottom: 139px;
+    text-align: center;
+    @media screen and (max-width:530px) {
+        margin-bottom: 70px;
+        font-size: 40px;
+        span{
+            display: block;
+        }
+    }
+}
+
+.dishes__container {
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    @media screen and (max-width:1085px) {
+        display: grid;
+        row-gap: 50px;
+        text-align: center;
+    }
+}
+
+.burger{
+    display: grid;
+    row-gap: 29px;
+    @media screen and (max-width:1085px) {
+       margin: 0 auto;
+    }
+}
+
+.burger__item {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    @media screen and (max-width:530px) {
+        column-gap: 5px;
+        span{
+            display: none;
+        }
+     }
+}

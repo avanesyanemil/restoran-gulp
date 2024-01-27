@@ -1,0 +1,26 @@
+.cooks{
+    padding-bottom: 100px;
+    @media screen and (max-width:530px){
+        padding-bottom: 21px;
+    }  
+
+}
+
+.cooks__title{
+    margin-bottom: 107px;
+    text-align: center;
+    @media screen and (max-width:530px){
+        margin-bottom: 80px;
+    }
+}
+
+.cooks__cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cooks__card{
+    margin: 0 auto;
+}
